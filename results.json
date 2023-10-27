@@ -1,0 +1,115 @@
+{
+  "suites": {
+    "title": "",
+    "fullTitle": "",
+    "suites": [],
+    "tests": [
+      {
+        "title": "should have the title \"Calculator App\"",
+        "fullTitle": "Calculator App should have the title \"Calculator App\"",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "title": "should display 2 when \"1 + 1 = \" is clicked",
+        "fullTitle": "Calculator App should display 2 when \"1 + 1 = \" is clicked",
+        "status": "PASS",
+        "error": null
+      }
+    ],
+    "pass": 2,
+    "fail": 0
+  },
+  "stats": {
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 2,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 2,
+    "openHandles": [],
+    "snapshot": {
+      "added": 0,
+      "didUpdate": false,
+      "failure": false,
+      "filesAdded": 0,
+      "filesRemoved": 0,
+      "filesRemovedList": [],
+      "filesUnmatched": 0,
+      "filesUpdated": 0,
+      "matched": 0,
+      "total": 0,
+      "unchecked": 0,
+      "uncheckedKeysByFile": [],
+      "unmatched": 0,
+      "updated": 0
+    },
+    "startTime": 1698388457948,
+    "success": false,
+    "testResults": [
+      {
+        "leaks": false,
+        "numFailingTests": 0,
+        "numPassingTests": 2,
+        "numPendingTests": 0,
+        "numTodoTests": 0,
+        "openHandles": [],
+        "perfStats": {
+          "end": 1698388471100,
+          "runtime": 13045,
+          "slow": true,
+          "start": 1698388458055
+        },
+        "skipped": false,
+        "snapshot": {
+          "added": 0,
+          "fileDeleted": false,
+          "matched": 0,
+          "unchecked": 0,
+          "uncheckedKeys": [],
+          "unmatched": 0,
+          "updated": 0
+        },
+        "testFilePath": "F:\\my-projects\\CS4530\\CourseMaterials\\activities\\week8\\week8-e2e-testing-starter\\src\\__tests__\\calculator.e2e.ts",
+        "testResults": [
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": 1513,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should have the title \"Calculator App\"",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 1,
+            "retryReasons": [],
+            "status": "passed",
+            "title": "should have the title \"Calculator App\""
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": 9059,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display 2 when \"1 + 1 = \" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 1,
+            "retryReasons": [],
+            "status": "passed",
+            "title": "should display 2 when \"1 + 1 = \" is clicked"
+          }
+        ],
+        "failureMessage": null
+      }
+    ],
+    "wasInterrupted": false
+  }
+}
