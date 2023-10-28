@@ -15,10 +15,58 @@
         "fullTitle": "Calculator App should display 2 when \"1 + 1 = \" is clicked",
         "status": "PASS",
         "error": null
+      },
+      {
+        "title": "should display 0 when \"1 - 1 = \" is clicked",
+        "fullTitle": "Calculator App should display 0 when \"1 - 1 = \" is clicked",
+        "status": "FAIL",
+        "error": ""
+      },
+      {
+        "title": "should display 4 when \"2 * 2 = \" is clicked",
+        "fullTitle": "Calculator App should display 4 when \"2 * 2 = \" is clicked",
+        "status": "FAIL",
+        "error": ""
+      },
+      {
+        "title": "should display 2 when \"4 / 2 = \" is clicked",
+        "fullTitle": "Calculator App should display 2 when \"4 / 2 = \" is clicked",
+        "status": "FAIL",
+        "error": ""
+      },
+      {
+        "title": "should display div 0 error when \"1 / 0 = \" is clicked",
+        "fullTitle": "Calculator App should display div 0 error when \"1 / 0 = \" is clicked",
+        "status": "FAIL",
+        "error": ""
+      },
+      {
+        "title": "should display 15 when \"1 + 2 * 7 = \" is clicked",
+        "fullTitle": "Calculator App should display 15 when \"1 + 2 * 7 = \" is clicked",
+        "status": "FAIL",
+        "error": ""
+      },
+      {
+        "title": "should display 0 when \"1 + 2 - 3 = \" is clicked",
+        "fullTitle": "Calculator App should display 0 when \"1 + 2 - 3 = \" is clicked",
+        "status": "FAIL",
+        "error": ""
+      },
+      {
+        "title": "should display 2 when \"1 + 2 / 2 - 3 * 0 = \" is clicked",
+        "fullTitle": "Calculator App should display 2 when \"1 + 2 / 2 - 3 * 0 = \" is clicked",
+        "status": "FAIL",
+        "error": ""
+      },
+      {
+        "title": "should display 0 when \"1 + 2\" is clicked and then \"C\" is clicked",
+        "fullTitle": "Calculator App should display 0 when \"1 + 2\" is clicked and then \"C\" is clicked",
+        "status": "FAIL",
+        "error": ""
       }
     ],
     "pass": 2,
-    "fail": 0
+    "fail": 8
   },
   "stats": {
     "numFailedTestSuites": 0,
@@ -28,9 +76,9 @@
     "numPendingTestSuites": 0,
     "numPendingTests": 0,
     "numRuntimeErrorTestSuites": 0,
-    "numTodoTests": 0,
+    "numTodoTests": 8,
     "numTotalTestSuites": 1,
-    "numTotalTests": 2,
+    "numTotalTests": 10,
     "openHandles": [],
     "snapshot": {
       "added": 0,
@@ -48,7 +96,7 @@
       "unmatched": 0,
       "updated": 0
     },
-    "startTime": 1698388457948,
+    "startTime": 1698533481703,
     "success": false,
     "testResults": [
       {
@@ -56,13 +104,13 @@
         "numFailingTests": 0,
         "numPassingTests": 2,
         "numPendingTests": 0,
-        "numTodoTests": 0,
+        "numTodoTests": 8,
         "openHandles": [],
         "perfStats": {
-          "end": 1698388471100,
-          "runtime": 13045,
+          "end": 1698533497375,
+          "runtime": 15519,
           "slow": true,
-          "start": 1698388458055
+          "start": 1698533481856
         },
         "skipped": false,
         "snapshot": {
@@ -74,13 +122,13 @@
           "unmatched": 0,
           "updated": 0
         },
-        "testFilePath": "F:\\my-projects\\CS4530\\CourseMaterials\\activities\\week8\\week8-e2e-testing-starter\\src\\__tests__\\calculator.e2e.ts",
+        "testFilePath": "/Users/jamescd/Documents/02_Northeastern/02_Computer-Science/18_CS-4530/week-8-e2e-activity-starter/src/__tests__/calculator.e2e.ts",
         "testResults": [
           {
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 1513,
+            "duration": 1270,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should have the title \"Calculator App\"",
@@ -95,7 +143,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 9059,
+            "duration": 8591,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 2 when \"1 + 1 = \" is clicked",
@@ -105,6 +153,126 @@
             "retryReasons": [],
             "status": "passed",
             "title": "should display 2 when \"1 + 1 = \" is clicked"
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": null,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display 0 when \"1 - 1 = \" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 0,
+            "retryReasons": [],
+            "status": "todo",
+            "title": "should display 0 when \"1 - 1 = \" is clicked"
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": null,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display 4 when \"2 * 2 = \" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 0,
+            "retryReasons": [],
+            "status": "todo",
+            "title": "should display 4 when \"2 * 2 = \" is clicked"
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": null,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display 2 when \"4 / 2 = \" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 0,
+            "retryReasons": [],
+            "status": "todo",
+            "title": "should display 2 when \"4 / 2 = \" is clicked"
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": null,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display div 0 error when \"1 / 0 = \" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 0,
+            "retryReasons": [],
+            "status": "todo",
+            "title": "should display div 0 error when \"1 / 0 = \" is clicked"
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": null,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display 15 when \"1 + 2 * 7 = \" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 0,
+            "retryReasons": [],
+            "status": "todo",
+            "title": "should display 15 when \"1 + 2 * 7 = \" is clicked"
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": null,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display 0 when \"1 + 2 - 3 = \" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 0,
+            "retryReasons": [],
+            "status": "todo",
+            "title": "should display 0 when \"1 + 2 - 3 = \" is clicked"
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": null,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display 2 when \"1 + 2 / 2 - 3 * 0 = \" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 0,
+            "retryReasons": [],
+            "status": "todo",
+            "title": "should display 2 when \"1 + 2 / 2 - 3 * 0 = \" is clicked"
+          },
+          {
+            "ancestorTitles": [
+              "Calculator App"
+            ],
+            "duration": null,
+            "failureDetails": [],
+            "failureMessages": [],
+            "fullName": "Calculator App should display 0 when \"1 + 2\" is clicked and then \"C\" is clicked",
+            "invocations": 1,
+            "location": null,
+            "numPassingAsserts": 0,
+            "retryReasons": [],
+            "status": "todo",
+            "title": "should display 0 when \"1 + 2\" is clicked and then \"C\" is clicked"
           }
         ],
         "failureMessage": null
