@@ -6,7 +6,7 @@ describe("Calculator App", () => {
 
   beforeAll(async () => {
     browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       // pipe: true,
       args: [
         "--no-sandbox",
@@ -15,7 +15,7 @@ describe("Calculator App", () => {
         // '--single-process',
         "--disable-features=site-per-process",
       ],
-      slowMo: 100,
+      slowMo: 0,
     });
   });
 
