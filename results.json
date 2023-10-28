@@ -102,7 +102,7 @@
       "unmatched": 0,
       "updated": 0
     },
-    "startTime": 1698534551846,
+    "startTime": 1698534846458,
     "success": false,
     "testResults": [
       {
@@ -113,10 +113,10 @@
         "numTodoTests": 0,
         "openHandles": [],
         "perfStats": {
-          "end": 1698534669590,
-          "runtime": 117560,
+          "end": 1698534858628,
+          "runtime": 11998,
           "slow": true,
-          "start": 1698534552030
+          "start": 1698534846630
         },
         "skipped": false,
         "snapshot": {
@@ -134,7 +134,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 1315,
+            "duration": 813,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should have the title \"Calculator App\"",
@@ -149,7 +149,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 8652,
+            "duration": 428,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 2 when \"1 + 1 = \" is clicked",
@@ -164,7 +164,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 8545,
+            "duration": 398,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 0 when \"1 - 1 = \" is clicked",
@@ -179,7 +179,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 8537,
+            "duration": 400,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 4 when \"2 * 2 = \" is clicked",
@@ -194,7 +194,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 8540,
+            "duration": 418,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 2 when \"4 / 2 = \" is clicked",
@@ -209,7 +209,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 8553,
+            "duration": 396,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display div 0 error when \"1 / 0 = \" is clicked",
@@ -224,7 +224,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 11408,
+            "duration": 468,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 15 when \"1 + 2 * 7 = \" is clicked",
@@ -239,7 +239,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 11391,
+            "duration": 415,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 0 when \"1 + 2 - 3 = \" is clicked",
@@ -254,7 +254,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 17072,
+            "duration": 484,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 2 when \"1 + 2 / 2 - 3 * 0 = \" is clicked",
@@ -269,7 +269,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 8561,
+            "duration": 385,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 0 when \"1 + 2 C\" is clicked",
@@ -284,7 +284,7 @@
             "ancestorTitles": [
               "Calculator App"
             ],
-            "duration": 17095,
+            "duration": 497,
             "failureDetails": [],
             "failureMessages": [],
             "fullName": "Calculator App should display 0.03125 when \"0.25 * .125 = \" is clicked",

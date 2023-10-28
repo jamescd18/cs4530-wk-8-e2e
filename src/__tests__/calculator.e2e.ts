@@ -6,7 +6,7 @@ describe("Calculator App", () => {
 
   beforeAll(async () => {
     browser = await puppeteer.launch({
-      headless: true,
+      headless: "new",
       // pipe: true,
       args: [
         "--no-sandbox",
